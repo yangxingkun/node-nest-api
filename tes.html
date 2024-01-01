@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* html,
+      body {
+        height: 100%;
+        width: 100%;
+      } */
+      #ind {
+        width: 100%;
+        /* height: 100%; */
+        height: 100vh;
+        background-color: red;
+        position: relative;
+      }
+      #ind button {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: 5%;
+        background-color: #f66f6a;
+        color: white;
+        width: 80%;
+        padding: 1rem 9px;
+        border: 0;
+        font-size: 16px;
+        box-sizing: content-box;
+        border-radius: 5px;
+      }
+
+      #ind button:hover {
+        background-color: #a54b4a;
+      }
+      .section {
+        width: 100%;
+        height: 80px;
+        background-color: orange;
+      }
+      .wapper {
+        /* transform-style: preserve-3d; */
+        perspective: 200px; /* 创建透视效果 */
+      }
+      div#myCircle {
+        transform-style: preserve-3d;
+        background-color: gray;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        transform: translateX(110px) translateY(700px) translateZ(20px)
+          perspective(200px);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ind">
+      <button>打开天窗说亮话</button>
+    </div>
+    <div class="section"></div>
+    <div class="wapper">
+      <div id="myCircle"></div>
+    </div>
+  </body>
+</html>
