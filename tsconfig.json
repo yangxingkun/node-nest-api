@@ -19,5 +19,7 @@
     "noFallthroughCasesInSwitch": false,
     "esModuleInterop": true,
     // "allowImportingTsExtensions": true
-  }
+  },
+  // "include": [],
+  "exclude": ["srccopy"]
 }

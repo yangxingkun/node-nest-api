@@ -1,5 +1,5 @@
 import { Controller, Get, Inject } from '@nestjs/common';
-import { TestService } from 'src/test/test.service';
+import { TestService } from '../test/test.service';
 
 @Controller('qd')
 export class QdController {
