@@ -48,6 +48,7 @@ alias pr=="npx prisma"
 
 ```bash
 
+npx prisma init
 
 pr init
 
@@ -75,7 +76,7 @@ DATABASE_URL="mysql://root:yxk12345@localhost:3306/node-nest-api"
 
 
 
-
+`
 
 ```bash
 
@@ -85,8 +86,15 @@ npx prisma migrate dev
 #如果没有生成关联表提示，进行格式化
 npx prisma format
 #表中数据填充
-pr db seed
-
-
+pr db seed ===npx prisma db seed (params) {
+pr      (params) {
+pr         
+pr     }
+pr }
+#创建管道，生成几个文件， g:gennerate pi:pipe d:detail
+n g pi filename --no-spec -d
+n g pi filename --no-spec 
+# 控制器写法
+n g co filename --no-spec -d
 
 ```

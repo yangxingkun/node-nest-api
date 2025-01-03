@@ -86,7 +86,10 @@ npx prisma migrate dev
 npx prisma format
 #表中数据填充
 pr db seed
-
-
+#创建管道，生成几个文件， g:gennerate pi:pipe d:detail
+n g pi filename --no-spec -d
+n g pi filename --no-spec 
+# 控制器写法
+n g co filename --no-spec -d
 
 ```
